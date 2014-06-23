@@ -3,7 +3,7 @@ title       : World Cup 2014 Group G Predictor
 subtitle    : will USA reach the knockout stages? can Portugal save themselves? use this to find out!
 author      : prusswan
 job         : R-hacker
-framework   : dzslides  # {io2012, html5slides, shower, dzslides, ...}
+framework   : shower   # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : [bootstrap]            # {mathjax, quiz, bootstrap}
@@ -21,8 +21,13 @@ knit        : slidify::knit2slides
 
 ## Slide 2
 
-```{r}
+
+```r
 sum(1:100)
+```
+
+```
+## [1] 5050
 ```
 
 --- .class #id
