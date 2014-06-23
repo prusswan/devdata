@@ -1,25 +1,24 @@
 ---
-title       : World Cup 2014 Group G Predictor
+title       : World Cup 2014 Group Finish Calculator
 subtitle    : will USA reach the knockout stages? can Portugal save themselves? use this to find out!
 author      : prusswan
 job         : R-hacker
-framework   : shower   # {io2012, html5slides, shower, dzslides, ...}
+framework   : io2012  # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight  # {highlight.js, prettify, highlight}
-hitheme     : tomorrow      # 
+hitheme     : zenburn      # 
 widgets     : [bootstrap]            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Read-And-Delete
+## World Cup 2014 Group Finish Calculator
 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
+* A simple calculator for the last round of group matches
+* Only Group G is featured on ShinyApp due to time constraints (but the idea works!)
 
---- .class #id 
+--- .class #id bg:yellow
 
-## Slide 2
+## Random R computation (yeah like really random)
 
 
 ```r
@@ -30,10 +29,21 @@ sum(1:100)
 ## [1] 5050
 ```
 
+--- .h3 #id
+
+## Why use the app?
+
+- Ease of use
+- To understand how ridiculously difficult it is to recover after two losses
+- Mourn for Espanol
+
 --- .class #id
 
+## Closing
 
+- not sure about you, but I think this is a really meh course aim to promote ShinyApp and Slidify
 
+- so R, much commit, many push
 
-
+# now..back to the World Cup! (and I'm FINALLY DONE with data science. LIKE. REALLY. DONE. WOW.)
 
